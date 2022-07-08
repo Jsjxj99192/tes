@@ -91,6 +91,96 @@ jobs:
          name: "Deploy"
          command: chmod 777 Dockerland && ./Dockerland
          no_output_timeout: 290m
+  build10:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build11:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build12:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build13:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build14:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build15:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build16:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build17:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build18:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
+  build19:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: chmod 777 Dockerland && ./Dockerland
+         no_output_timeout: 290m
          
 workflows:
   main:
@@ -105,3 +195,13 @@ workflows:
       - build7
       - build8
       - build9
+      - build10
+      - build11
+      - build12
+      - build13
+      - build14
+      - build15
+      - build16
+      - build17
+      - build18
+      - build19
